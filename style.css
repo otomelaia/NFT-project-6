@@ -1,4 +1,22 @@
 *{box-sizing: border-box;}
+
+@font-face {
+    font-family: FF1;
+    src: url(fonts/WorkSans/static/WorkSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: FF2;
+    src: url(fonts/WorkSans/static/WorkSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: FF3;
+    src: url(fonts/spacemonro/SpaceMono-Bold.ttf);
+  }
+  @font-face {
+    font-family: FF4;
+    src: url(fonts/spacemonro/SpaceMono-Regular.ttf);
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -15,4 +33,58 @@ body {
     background: var(--call-to-action, #A259FF);
     color: #FFF;
     border: none;
+}
+.back {
+    background-image: url(img/Image\ PlaceHolder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+}
+.p41 {
+    color: #FFF;
+    font-family: FF3;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; 
+    text-transform: capitalize;
+    }
+.p42 {
+    color: #CCC;
+    font-family: FF4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+.inp1 {
+    width: 390px;
+    height: 60px;
+    padding-left: 15px;
+    box-shadow: none;
+    border-radius: 20px;
+    background: var(--text, #FFF);
+    border: none;
+}
+.bt5 {
+    width: 211px;
+    height: 60px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    border: none;
+}
+.p43 {
+    color: #CCC;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
 }
